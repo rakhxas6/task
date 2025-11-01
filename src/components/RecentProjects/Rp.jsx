@@ -13,7 +13,7 @@ const Rp = () => {
             Recent Projects
           </span>
           {/* Circular User Icon &  buttons */}
-          <div className="right flex items-center gap-4">
+          <div className="right hidden sm:flex items-center gap-4">
             <div className="right rounded-3xl flex items-center justify-center bg-gray-200">
               <span className="px-6 py-3 bg-black text-white rounded-3xl cursor-pointer transition">
                 SaaS

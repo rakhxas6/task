@@ -12,7 +12,7 @@ const TopCard = () => {
     <section className="flex flex-col md:flex-row  justify-between gap-5">
       <section className="flex sm:flex-row flex-col  border border-gray-400 px-5 py-5 rounded-3xl space-x-5 md:w-3/5 w-full ">
         <div className="leftSection ">
-          <div className="topPart flex justify-between items-start">
+          <div className="topPart flex  justify-between items-start">
             <div className="left space-y-4">
               <p className="text-lg text-gray-600">Overall Balance</p>
               <span className="text-4xl font-semibold text-gray-900">
@@ -28,7 +28,7 @@ const TopCard = () => {
               </div>
             </div>
 
-            <div className="right rounded-3xl flex items-center justify-center bg-gray-200">
+            <div className="right rounded-3xl hidden sm:flex   items-center justify-center bg-gray-200">
               <span className="px-6 py-3 bg-black text-white rounded-3xl cursor-pointer transition">
                 Orders
               </span>

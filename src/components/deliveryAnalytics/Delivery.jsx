@@ -25,28 +25,26 @@ const Delivery = () => {
       <div className="topPart">
         <div className="flex items-center gap-2 justify-between">
           {/* Text */}
-          <span className="text-xl font-medium text-gray-700">
+          <span className="sm:text-xl text-lg font-medium text-gray-700">
             Delivery Analytics
           </span>
           {/* Circular User Icon &  buttons */}
           <div className="right flex items-center gap-4">
-            <div className="right rounded-3xl flex items-center justify-center bg-gray-200">
-              <span className="px-6 py-3 bg-black text-white rounded-3xl cursor-pointer transition">
+            <div className="right rounded-3xl hidden sm:flex items-center justify-center bg-gray-200">
+              <span className="px-5 py-2 sm:px-6 sm:py-3 bg-black text-white rounded-3xl cursor-pointer transition">
                 Email
               </span>
-              <span className="px-6 py-3 rounded-3xl cursor-pointer transition">
+              <span className="px-5 py-2 sm:px-6 sm:py-3 rounded-3xl cursor-pointer transition">
                 Last Week
               </span>
             </div>
-            <span
-              className={`flex items-center justify-center`}
-            >
+            <span className={`flex items-center justify-center`}>
               <IoEllipsisVerticalOutline size={20} />
             </span>
           </div>
         </div>
       </div>
-      <div className="btmPart flex flex-row gap-4">
+      <div className="btmPart flex flex-col sm:flex-row gap-4">
         <div className="left w-full">
           <div className="border-2 border-gray-400 text-center">
             image will live here

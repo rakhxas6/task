@@ -59,7 +59,7 @@ const PaymentMethods = () => {
         <div className="card space-y-2">
           <TransactionsElements
             icon={SiNetflix}
-            label={"Netflix Subscription"}
+            label={"Netflix"}
             subLabel={"Today, 09:23am"}
             state={"Approved"}
             balance={"-$4.58"}

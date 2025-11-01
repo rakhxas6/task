@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import { IoEllipsisVerticalOutline, IoPieChartOutline } from "react-icons/io5";
 import SmallRoundedCard from "./SmallRoundedCard";
 import { IoIosTrendingUp } from "react-icons/io";
@@ -25,8 +25,8 @@ const MarketingReport = () => {
           </div>
         </div>
       </div>
-      <div className="middlePart">
-        <div className="left space-y-5">
+      <div className="middlePart  flex flex-col sm:flex-row gap-4">
+        <div className="left space-y-5 w-full">
           <SmallRoundedCard
             label={"Search Volume"}
             icon={IoIosTrendingUp}
@@ -56,9 +56,18 @@ const MarketingReport = () => {
             bgColor={"bg-white"}
           />
         </div>
-        <div className="right"></div>
+        <div className="right w-full space-y-5">
+          <div className="topPart w-full h-60 border border-slate-200 flex items-center justify-center">image goes here</div>
+          <div className="btmPart flex flex-col items-center justify-between">
+            <span className="font-bold text-2xl">275</span>
+            <span className="text-center text-gray-500">
+              Learn Insights on how to manage <br />
+              all aspects of your startup.
+            </span>
+          </div>
+        </div>
       </div>
-      <div className="bottomPart flex items-center gap-4 bg-slate-200 px-5 py-5 rounded-3xl w-fit">
+      <div className="bottomPart flex justify-between items-center gap-2 bg-slate-200 px-5 py-5 rounded-3xl w-full">
         <span>
           <FaTelegramPlane size={28} />
         </span>

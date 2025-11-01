@@ -18,15 +18,15 @@ const TransactionsElements = ({
           <Icon size={20} />
         </div>
         <div className="textLeft">
-          <p className="font-sans text-lg">{label}</p>
+          <p className="font-sans text-md sm:text-lg">{label}</p>
           <p className="font-semibold text-gray-600">{subLabel}</p>
         </div>
         <div className={`state px-3 py-1 ${stateBg} text-sm rounded-3xl`}>
           <p className="font-sans ">{state}</p>
         </div>
         <div className="textRight">
-          <p className="font-sans text-xl ">{balance}</p>
-          <p className={`font-normal`} >
+          <p className="font-sans text-md sm:text-xl ">{balance}</p>
+          <p className={`text-xs`} >
             {bonus}
           </p>
         </div>
